@@ -1,0 +1,12 @@
+bookshop\config\kafka\KafkaProcessor.class
+bookshop\MypageRepository.class
+bookshop\MypageViewHandler.class
+bookshop\DeliveryCanceled.class
+bookshop\AbstractEvent.class
+bookshop\MypageApplication.class
+bookshop\PolicyHandler.class
+bookshop\OrderPlaced.class
+bookshop\Mypage.class
+bookshop\AbstractEvent$1.class
+bookshop\Shipped.class
+bookshop\PayCompleted.class

@@ -1,0 +1,12 @@
+bookshop\external\Payment.class
+bookshop\Order.class
+bookshop\OrderController.class
+bookshop\config\kafka\KafkaProcessor.class
+bookshop\OrderRepository.class
+bookshop\AbstractEvent.class
+bookshop\PolicyHandler.class
+bookshop\OrderPlaced.class
+bookshop\AbstractEvent$1.class
+bookshop\OrderCanceled.class
+bookshop\external\PaymentService.class
+bookshop\OrderApplication.class

@@ -1,0 +1,11 @@
+bookshop\PayCanceled.class
+bookshop\PaymentApplication.class
+bookshop\AbstractEvent$1.class
+bookshop\config\kafka\KafkaProcessor.class
+bookshop\OrderCanceled.class
+bookshop\PaymentRepository.class
+bookshop\AbstractEvent.class
+bookshop\PaymentController.class
+bookshop\Payment.class
+bookshop\PayCompleted.class
+bookshop\PolicyHandler.class

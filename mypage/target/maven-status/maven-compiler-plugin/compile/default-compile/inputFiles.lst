@@ -1,0 +1,11 @@
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\PolicyHandler.java
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\PayCompleted.java
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\OrderPlaced.java
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\DeliveryCanceled.java
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\AbstractEvent.java
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\config\kafka\KafkaProcessor.java
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\Mypage.java
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\MypageApplication.java
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\MypageRepository.java
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\MypageViewHandler.java
+C:\dev\spring\bookshop\mypage\src\main\java\bookshop\Shipped.java

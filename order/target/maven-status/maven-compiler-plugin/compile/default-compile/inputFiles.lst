@@ -1,0 +1,11 @@
+C:\dev\spring\bookshop\order\src\main\java\bookshop\AbstractEvent.java
+C:\dev\spring\bookshop\order\src\main\java\bookshop\external\PaymentService.java
+C:\dev\spring\bookshop\order\src\main\java\bookshop\Order.java
+C:\dev\spring\bookshop\order\src\main\java\bookshop\OrderController.java
+C:\dev\spring\bookshop\order\src\main\java\bookshop\OrderCanceled.java
+C:\dev\spring\bookshop\order\src\main\java\bookshop\external\Payment.java
+C:\dev\spring\bookshop\order\src\main\java\bookshop\OrderApplication.java
+C:\dev\spring\bookshop\order\src\main\java\bookshop\config\kafka\KafkaProcessor.java
+C:\dev\spring\bookshop\order\src\main\java\bookshop\OrderPlaced.java
+C:\dev\spring\bookshop\order\src\main\java\bookshop\OrderRepository.java
+C:\dev\spring\bookshop\order\src\main\java\bookshop\PolicyHandler.java
