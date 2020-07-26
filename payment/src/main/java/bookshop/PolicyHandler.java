@@ -22,15 +22,22 @@ public class PolicyHandler{
     public void wheneverOrderCanceled_Cancel(@Payload OrderCanceled orderCanceled){
 
         if(orderCanceled.isMe()) {
+            System.out.println("##################################################");
             System.out.println("##### listener Cancel : " + orderCanceled.toJson());
+            System.out.println("##################################################");
             // order canceled 이벤트 발생 시 payment cancel (pub/sub)
             Payment payment = paymentRepository.findByOrderId(orderCanceled.getId());
-            System.out.println("##### payment Cancel paymentId : " + payment.getId());
+//            Payment payment = new Payment();
+            System.out.println("##### payment id : " + payment.getId() );
+            System.out.println("##### payment orderId : " + payment.getOrderId() );
+            System.out.println("##### payment status : " + payment.getStatus() );
 
 //            payment.setOrderId(orderCanceled.getId());
-//            payment.setQty(orderCanceled.getQty());
             payment.setStatus("PAY CANCELED");
+//            payment.setQty(orderCanceled.getQty());
+
             paymentRepository.save(payment);
+            
 
         }
     }

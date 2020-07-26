@@ -1,4 +1,3 @@
-bookshop\PayCanceled.class
 bookshop\DeliveryController.class
 bookshop\config\kafka\KafkaProcessor.class
 bookshop\DeliveryCanceled.class

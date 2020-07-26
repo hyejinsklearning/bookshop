@@ -29,7 +29,7 @@ public class PolicyHandler{
             delivery.setOrderId(payCompleted.getOrderId());
             delivery.setQty(payCompleted.getQty());
             delivery.setStatus("SHIPPED");
-            // payment id 있어야될까..
+            // payment id ??
 
             deliveryRepository.save(delivery);
         }
@@ -41,9 +41,8 @@ public class PolicyHandler{
         if(orderCanceled.isMe()){
             System.out.println("##### listener Cancel : " + orderCanceled.toJson());
             // order cancel 되면 pub/sub으로 delivery cancel
-            // order cancel ==> payment cancel, delivery cancel 둘다 안되고잇다..
-            // 있는 항목을 update 해야된다..
-//            Delivery delivery_c = new Delivery();
+
+//            Delivery delivery = new Delivery();
             Delivery delivery = deliveryRepository.findByOrderId(orderCanceled.getId());
 //            delivery.setOrderId(orderCanceled.getId());
 //            delivery.setQty(orderCanceled.getQty());
